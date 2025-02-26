@@ -4,8 +4,7 @@ import CityComponent from "./modules/CityComponent";
 import { useState } from "react";
 import axios from "axios";
 
-
-const API_KEY ="3e3148c49bd22a3f9c1d772f0e507d8f"
+const API_KEY = process.env.REACT_APP_API_KEY;
 const Container =styled.div`
 display: flex;
 flex-direction: column;
