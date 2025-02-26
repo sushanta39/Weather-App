@@ -7,6 +7,7 @@ export const WeatherInfoIcons = {
     wind: "/icons/wind.svg",
     pressure: "/icons/pressure.svg",
 };
+let a = 2;
 
 export const WeatherIcons = {
     "01d": "/icons/sunny.svg",

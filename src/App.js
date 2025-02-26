@@ -3,6 +3,7 @@ import WeatherComponent from "./modules/WeatherInfoComponent";
 import CityComponent from "./modules/CityComponent";
 import { useState } from "react";
 import axios from "axios";
+import { useEffect } from "react";
 
 
 const API_KEY ="3e3148c49bd22a3f9c1d772f0e507d8f"
